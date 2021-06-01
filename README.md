@@ -69,7 +69,7 @@ with open('wordlist.txt', 'w') as f:
 print "wordlist saved to wordlist.txt"
 ```
 
-Stpe 2: Save in scope burp files as target.xml ( proxy-> burp history -> ctr+a -> save file as target.xml ), before doing this set scope as as per your target and browse the website as normal user so that burp history capture everything which in scope.
+Stpe 2: Save in scope burp files as target.xml ( proxy-> burp history -> ctrl+a -> save file as target.xml ), before doing this set scope as as per your target and browse the website as normal user so that burp history capture everything which in scope.
 
 Step 3: Now use this command : ` python burplist.py target.xml ` wordlist.txt will be created
 
